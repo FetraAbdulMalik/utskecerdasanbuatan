@@ -1,0 +1,24 @@
+% Aturan untuk mendiagnosis hama berdasarkan gejala
+diagnose_pest(Symptoms, Result) :-
+    member('daun menguning', Symptoms),
+    member('bercak hitam', Symptoms),
+    Result = 'Kemungkinan hama: Hama Jamur'.
+
+diagnose_pest(Symptoms, Result) :-
+    member('daun berlubang', Symptoms),
+    Result = 'Kemungkinan hama: Hama Ulat'.
+
+diagnose_pest(Symptoms, Result) :-
+    member('daun menguning', Symptoms),
+    member('tanaman layu', Symptoms),
+    Result = 'Kemungkinan hama: Hama Kutu'.
+
+diagnose_pest(Symptoms, Result) :-
+    member('bercak hitam', Symptoms),
+    member('daun berlubang', Symptoms),
+    Result = 'Kemungkinan hama: Hama Kutu Daun'.
+
+% Jika tidak ada kecocokan
+diagnose_pest(_, 'Hama tidak teridentifikasi').
+
+
