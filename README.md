@@ -1,6 +1,6 @@
 # utskecerdasanbuatan
 
-rogram ini dirancang untuk membantu dalam mengidentifikasi jenis hama pada tanaman berdasarkan gejala yang muncul. Dengan menggunakan serangkaian aturan logika, program dapat memberikan diagnosis yang sesuai dengan kondisi tanaman.
+program ini dirancang untuk membantu dalam mengidentifikasi jenis hama pada tanaman berdasarkan gejala yang muncul. Dengan menggunakan serangkaian aturan logika, program dapat memberikan diagnosis yang sesuai dengan kondisi tanaman.
 
 Alur Pembuatan Program
 Definisi Fungsi
